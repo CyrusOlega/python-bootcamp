@@ -1,0 +1,6 @@
+user_name = input("What is your name? ")
+favorite_number = input("What is your favorite number? ")
+favorite_color = input("What is your favorite color? ")
+print("Hello, my name is:", user_name)
+print("My favorite number is:", favorite_number)
+print("My favorite color is:", favorite_color)
