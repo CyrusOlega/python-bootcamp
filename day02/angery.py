@@ -1,0 +1,1 @@
+print("I am perfectly calm and everything is fine".upper())
