@@ -1,0 +1,14 @@
+<h1>My todo list</h1>
+{% if items: %}
+  {% for item in items %}
+    <div style="display: flex; flex-direction: row; align-items: start; gap: 10px; margin-bottom: 10px">
+      <input type="submit" name="completed" value="complete">
+      <div style="display: flex; flex-direction: column">
+        <span>{{item["title"]}}</span>
+        <span>{{item["description"]}}</span>
+      </div>
+    </div>
+  {% endfor %}
+{% else: %}
+  <p>The todo list is empty!</p>
+{% endif %}
